@@ -45,7 +45,7 @@ router.route('/update/:id').post((req, res) => {
         book.username = req.body.username;
         book.bookname = req.body.bookname;
         book.description = req.body.description;
-        book.duration = req.body.duration;
+        book.duration = Number(req.body.duration);
         book.date = Date.parse(req.body.date);
 
         book.save()
