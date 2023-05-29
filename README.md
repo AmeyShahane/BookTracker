@@ -1,8 +1,10 @@
 #Booktracker
 
-Booktracker is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to help users track their book borrowing activities. It allows users to create new accounts, log their book borrowings, and manage their logs by editing or deleting entries.
+Booktracker is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to help users track their book borrowing activities. 
+It allows users to create new accounts, log their book borrowings, and manage their logs by editing or deleting entries.
 
 ##Features
+
 User Registration: Users can create new accounts by providing their basic information.
 Book Logging: Users can create log entries for each book they borrow, including the book title, borrowing date, and duration in days.
 Log Editing: Users can edit the details of their existing log entries.
@@ -11,6 +13,7 @@ User Dashboard: Users can view and manage their book logs through an intuitive a
 
 
 ##Technologies Used
+
 Booktracker is built using the following technologies:
 
 Front-end:
